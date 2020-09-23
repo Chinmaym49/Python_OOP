@@ -39,7 +39,7 @@ if __name__=="__main__":
 # 6+3i
 # 4-7i
 # 10-4i
-# Not Equal
+# Not Equal 
 
 # Some internal methods
 
