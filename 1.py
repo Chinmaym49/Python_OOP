@@ -21,3 +21,8 @@ if __name__=="__main__":
     print(Dog.animal)
     d1.change_animal("Doggy")
     print(d1.animal,d2.animal)
+
+# tuffy poodle 3 dog
+# bruno pitbull 4 dog
+# dog
+# Doggy Doggy
