@@ -19,19 +19,16 @@ class C(A,B):
     def __init__(self,a,b,c):
         A.__init__(self,a)              # Calling base class contructors to pass parameters
         B.__init__(self,b)
-        self.a=0
         self.c=c
 
     def disp(self):
         A.display(self)                 # Calling base class functions
         B.display(self)
-        print(self.c)
         print(self.a,self.b,self.c)     # Accessing base class data members
 
 if __name__=="__main__":
     c=C("A","B","C")
     c.disp()
-    print(dir(c))
 
 # A
 # B
